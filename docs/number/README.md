@@ -7,3 +7,6 @@
 ## 生成随机数
 
 <<< ./tpl/number/random.js
+
+## 减法
+<<< ./tpl/number/minus.js
