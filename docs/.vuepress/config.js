@@ -25,7 +25,7 @@ module.exports = {
     nav: [
       { text: 'css tricks', link: 'https://qishaoxuan.github.io/css_tricks/' },
       { text: 'blog', link: 'https://qishaoxuan.github.io/blog/' },
-      { text: 'GitHub', link: 'https://github.com/QiShaoXuan/js_tricks' },
+      { text: 'GitHub', link: 'https://github.com/zzzzbbbxxx/js_tricks' },
     ],
     sidebar: [
       '/dom/',
@@ -34,6 +34,7 @@ module.exports = {
       '/date/',
       '/number/',
       '/cookie/',
+      '/color/',
     ]
   }
 }

@@ -11,7 +11,7 @@
 ## 快速开始 Quick start
 
 ```bash
-  git clone https://github.com/QiShaoXuan/js_tricks.git
+  git clone https://github.com/zzzzbbbxxx/js_tricks.git
   cd js_tricks
   npm install
   npm run docs:dev
