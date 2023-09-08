@@ -2,11 +2,11 @@
 
 ## 数字千分位分割
 
-<<< ./tpl/number/commafy.js
+@[code](../../tpl//number/commafy.js)
 
 ## 生成随机数
 
-<<< ./tpl/number/random.js
+@[code](../../tpl//number/random.js)
 
 ## 减法
-<<< ./tpl/number/minus.js
+@[code](../../tpl//number/minus.js)

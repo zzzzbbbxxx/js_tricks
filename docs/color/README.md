@@ -2,7 +2,7 @@
 
 ## 十六进制色值转Hsl色值
 
-<<< ./tpl/color/hexToHsl.js
+@[code](../../tpl//color/hexToHsl.js)
 
 #### 用法示例
 
@@ -16,7 +16,7 @@ console.log(result); // 输出: hsl(210, 50%, 40%) */
 
 ## Hsl色值转十六进制色值
 
-<<< ./tpl/color/hslToHex.js
+@[code](../../tpl//color/hslToHex.js)
 
 #### 用法示例
 
@@ -31,7 +31,7 @@ console.log(result); // 输出: #336699
 
 ## darken && lighten
 
-<<< ./tpl/color/changeLightness.js
+@[code](../../tpl//color/changeLightness.js)
 
 #### 用法示例
 
