@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: 'js tricks',
   description: '常用的js方法，js_tricks',
   dest: './dist',
