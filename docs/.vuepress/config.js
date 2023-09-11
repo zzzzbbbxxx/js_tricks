@@ -1,4 +1,5 @@
 import { defaultTheme } from "vuepress";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default {
   base: '/js_tricks/',
@@ -20,10 +21,10 @@ export default {
     colorMode: 'dark',  // 在colorModeSwitch为false时生效
     colorModeSwitch: true, // 默认为true
     navbar: [
-      {
+      /*{
         text: '首页',
         link: '/'
-      },
+      },*/
       { text: 'css tricks', link: 'https://qishaoxuan.github.io/css_tricks/' },
       { text: 'blog', link: 'https://qishaoxuan.github.io/blog/' },
       // { text: 'GitHub', link: 'https://github.com/zzzzbbbxxx/js_tricks' },
@@ -37,14 +38,22 @@ export default {
       '/number/',
       '/cookie/',
       '/color/',
-    ]
+    ],
+    contributors: true,
   }),
   markdown: {
     anchor: { permalink: false },
     toc: { includeLevel: [1, 2] },
-    config: md => {
-      md.use(require('markdown-it-include'), './')
-    }
   },
+  plugins: [
+    searchPlugin({
+      // 配置项
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        }
+      }
+    })
+  ],
 }
 
