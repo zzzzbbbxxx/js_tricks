@@ -3,7 +3,6 @@
 ## 数组去重
 
 @[code](../../tpl/array/noRepeat.js)
-@[code](../../tpl/array/noRepeat.js)
 
 ## 查找数组最大
 
