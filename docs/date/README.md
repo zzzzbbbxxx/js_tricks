@@ -6,5 +6,5 @@
 
 - isMs为时间戳是否为毫秒
 
-@[code](../../tpl//date/timestampToTime.js)
+@[code](../../tpl/date/timestampToTime.js)
 
